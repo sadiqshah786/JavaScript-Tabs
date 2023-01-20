@@ -1,0 +1,54 @@
+.tabs-container {
+  font-family: "Roboto", sans-serif;
+  max-width: 1200px;
+  min-height: auto;
+  margin: 50px auto;
+  display: flex;
+}
+
+.tabs-container .tabs {
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.tabs-container .tabs .tab {
+  padding: 24px 32px;
+  background: #222;
+  cursor: pointer;
+  font-weight: bold;
+  width: 300px;
+}
+
+.tabs-container .tabs .tab.active {
+  background: #00cec9;
+  color: #f6fdff;
+}
+
+.tabs-container .content-container {
+  background: #f6fdff;
+}
+
+.tabs-container .content-container .content {
+  display: none;
+  padding: 32px;
+}
+
+.tabs-container .content-container .content.active {
+  display: block;
+}
+
+.tabs-container .content-container h3 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.tabs-container .content-container p {
+  line-height: 2;
+}
